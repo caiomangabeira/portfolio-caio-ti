@@ -1,0 +1,53 @@
+.divhome {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.89);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imghome img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.txthome {
+    width: 50vw;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.txthome p {
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.divgithome {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.divgithome .linkgithome {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.divgithome button {
+    background-color: rgba(36, 36, 36, 0.856);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.459);
+}
+
+@media (max-width: 600px) {
+    .txthome {
+        width: 80vw;
+    }
+}

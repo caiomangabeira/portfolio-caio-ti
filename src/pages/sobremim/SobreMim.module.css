@@ -1,0 +1,29 @@
+.divsobremim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.89);
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.divsobremim h1 {
+    margin-bottom: 30px;
+}
+
+.divsobremim p {
+    width: 60vw;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+    
+    margin: 10px auto;
+}
+
+@media (max-width: 600px) {
+    .divsobremim p {
+        width: 80vw;
+    }
+}

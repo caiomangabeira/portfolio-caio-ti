@@ -1,0 +1,37 @@
+.divcontato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.89);
+    padding: 20px;
+}
+
+.divcontato h1 {
+    margin-bottom: 30px;
+}
+
+.divredes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.divredes button {
+    width: 200px;
+    background-color: rgb(65, 65, 65);
+    color: rgba(255, 255, 255, 0.89);
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.459);
+}
+
+.divredes button .linkredes {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.89);
+}
