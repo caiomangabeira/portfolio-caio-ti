@@ -1,6 +1,8 @@
 import { FaGithub } from 'react-icons/fa';
 import { FaEye } from 'react-icons/fa';
 import styles from './Projetos.module.css'
+import imgProjeto1 from '../../assets/img-projeto1.png'
+import imgProjeto2 from '../../assets/img-projeto2.png'
 
 function Projetos() {
     return (
@@ -9,7 +11,7 @@ function Projetos() {
 
             <div className={styles.projeto}>
                 <div className={styles.imgprojeto}>
-                    <img src="/img/img-projeto1.png" alt="Imagem projeto" />
+                    <img src={imgProjeto1} alt="Imagem projeto" />
                 </div>
 
                 <div className={styles.infoprojeto}>
@@ -32,7 +34,7 @@ function Projetos() {
 
             <div className={styles.projeto}>
                 <div className={styles.imgprojeto}>
-                    <img src="/img/img-projeto2.png" alt="Imagem projeto" />
+                    <img src={imgProjeto2} alt="Imagem projeto" />
                 </div>
 
                 <div className={styles.infoprojeto}>

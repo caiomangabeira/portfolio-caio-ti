@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom'
 import { FaGithub } from 'react-icons/fa';
 import styles from './Home.module.css'
+import fotoCaio from '../../assets/foto3x4-2.png'
 
 function Home() {
     return (
         <div className={styles.divhome}>
             <div className={styles.imghome}>
-                <img src='/img/foto3x4-2.png' alt="Foto de Caio" />
+                <img src={fotoCaio} alt="Foto de Caio" />
             </div>
 
             <div className={styles.txthome}>
