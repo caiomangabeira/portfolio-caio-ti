@@ -6,7 +6,7 @@ function Contato() {
     return (
         <div className={styles.divcontato}>
             <h1>Contato</h1>
-            <p>Entre em contato comigo por um dos meios abaixo</p>
+            <p>Entre em contato comigo por um dos meios a seguir:</p>
             <div className={styles.divredes}>
                 <button>
                     <a className={styles.linkredes} href="https://www.linkedin.com/in/caio-azeredo/" target='_blank'>
