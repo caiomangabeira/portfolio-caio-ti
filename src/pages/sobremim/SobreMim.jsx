@@ -12,10 +12,8 @@ function SobreMim() {
             </p> <br />
             <p>
                 Na área de desenvolvimento, tenho conhecimentos em versionamento de código e hospedagem de projetos utilizando Git e GitHub, além das tecnologias HTML, CSS, JavaScript e React.js. Na área de dados, possuo conhecimentos em bancos de dados, com foco em SQL e MySQL, e habilidades básicas em análise de dados e construção de dashboards simples com Excel e Power BI.
-            </p> <br />
-            <p>
-                Meu objetivo principal é encontrar uma oportunidade como estagiário ou trainee, onde eu possa aprender e aprimorar minhas habilidades nas áreas mencionadas.
             </p>
+            
         </div>
     )
 }
