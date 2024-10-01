@@ -3,11 +3,35 @@ import { FaEye } from 'react-icons/fa';
 import styles from './Projetos.module.css'
 import imgProjeto1 from '../../assets/img-projeto1.png'
 import imgProjeto2 from '../../assets/img-projeto2.png'
+import imgProjeto3 from '../../assets/img-projeto3.png'
 
 function Projetos() {
     return (
         <div className={styles.divprojetos}>
             <h1>Meus projetos</h1>
+
+            <div className={styles.projeto}>
+                <div className={styles.imgprojeto}>
+                    <img src={imgProjeto3} alt="Imagem projeto" />
+                </div>
+
+                <div className={styles.infoprojeto}>
+                    <h2>Projeto Sistema de Login</h2>
+                    <p>Esta é uma página que funciona como um sistema de login. Nela, caso não tenha uma conta, o usuário pode se cadastrar acessando o link "Registre-se" e criando um e-mail e uma senha. Após o registro, os dados fornecidos são armazenados num armazenamento local, e o usuário poderá utilizá-los para fazer o login. Todo esse processo é acompanhado de uma simples validação dos dados fornecidos. Após o login, uma renderização condicional ocorre, exibindo uma nova página para o usuário.</p>
+                    <p><span>Tecnologias utilizadas: HTML, CSS, JavaScript e React.js.</span></p>
+                </div>
+
+                <div className={styles.botaoprojeto}>
+                <button>
+                        <a className={styles.linkprojeto} href="https://caiomangabeira.github.io/projeto-tela-login/" target='_blank'><FaEye /> Visualizar projeto</a>
+                    </button>
+                    <button>
+                        <a className={styles.linkprojeto} href="https://github.com/caiomangabeira/projeto-tela-login" target='_blank'>
+                            <FaGithub /> GitHub
+                        </a>
+                    </button>
+                </div>
+            </div>
 
             <div className={styles.projeto}>
                 <div className={styles.imgprojeto}>
