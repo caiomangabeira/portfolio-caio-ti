@@ -41,7 +41,6 @@
 .infoprojeto p {
     width: 80%;
     text-align: center;
-    text-align: justify;
     font-size: 20px;
     line-height: 25px;
     padding: 20px;
@@ -72,8 +71,30 @@
 }
 
 @media (max-width: 600px) {
+    .divprojetos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.89);
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .divprojetos h1 {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
     .projeto {
-        width: 80vw;
+        width: 60vw;
+        max-width: 700px;
+        background-color: rgba(36, 36, 36, 0.856);
+        margin-bottom: 50px;
+        padding: 20px;
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.459);
     }
     .infoprojeto p {
         width: 95%;
