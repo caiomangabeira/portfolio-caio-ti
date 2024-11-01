@@ -40,10 +40,10 @@
 
 .infoprojeto p {
     width: 80%;
-    text-align: center;
+    text-align: justify;
     font-size: 20px;
     line-height: 25px;
-    padding: 20px;
+    padding: 10px;
     margin: auto;
 }
 
@@ -88,16 +88,17 @@
     }
     
     .projeto {
-        width: 60vw;
+        width: 80vw;
         max-width: 700px;
         background-color: rgba(36, 36, 36, 0.856);
         margin-bottom: 50px;
-        padding: 20px;
+        padding: 5px;
         border-radius: 5px;
         border: 1px solid rgba(255, 255, 255, 0.459);
     }
     .infoprojeto p {
-        width: 95%;
+        width: 100%;
+        text-align: justify;
     }
     .botaoprojeto {
         display: flex;

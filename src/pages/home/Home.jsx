@@ -11,7 +11,7 @@ function Home() {
             </div>
 
             <div className={styles.txthome}>
-                <p>Olá! Sou Caio Azeredo, graduando em Sistemas de Computação e tenho grande interesse em Desenvolvimento Front-End, possuindo conhecimentos em HTML, CSS, JavaScript e React.js. Veja meus projetos acessando a aba "Projetos" acima!</p>
+                <p>Olá! Sou Caio Azeredo, graduando em Sistemas de Computação e tenho grande interesse em análise de dados, possuindo conhecimentos em SQL, Python, Excel e Power BI, além de estatística. Veja meus projetos acessando a aba "Projetos" acima!</p>
             </div>
 
             <div className={styles.divgithome}>

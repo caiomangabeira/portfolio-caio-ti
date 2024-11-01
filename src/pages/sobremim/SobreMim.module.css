@@ -25,5 +25,6 @@
 @media (max-width: 600px) {
     .divsobremim p {
         width: 80vw;
+        text-align: center;
     }
 }
